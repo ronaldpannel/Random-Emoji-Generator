@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+ 
+}
+body{
+  background-color: salmon;
+  height: 100vh;
+  display: flex;flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+h2{
+  font-size: 2rem;
+  color: aliceblue;
+}
+.section{
+  text-align: center;
+  padding-top: 20px;
+}
+button{
+  font-size: 8rem;
+  border: none;
+  background: rgba(255,255,255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  filter: grayscale();
+  transition:  filter 0.2s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+button:hover{
+  filter: grayscale(0);
+}
+p{
+  font-weight: 600;
+  color: darkblue;
+  font-size: 1.2rem;
+}
